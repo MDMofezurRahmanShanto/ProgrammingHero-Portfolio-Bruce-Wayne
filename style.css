@@ -1,6 +1,10 @@
 body{
+    background-color: rgb(101, 101, 221);
     font-family: 'Poppins', sans-serif;
 }
 .color-one{
     color: rgb(231, 171, 59);
+}
+a{
+    text-decoration: none;
 }
