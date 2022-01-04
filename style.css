@@ -1,13 +1,87 @@
 body{
+    margin: 0;
     background-color: rgb(101, 101, 221);
     font-family: 'Poppins', sans-serif;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.topsec{
+    background-image: url("img/top-banner.png");
+    background-repeat: no-repeat;
+}
+.pera{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+h1{
+    font-size: 50px;
 }
 .color-one{
     color: rgb(231, 171, 59);
 }
-a{
-    text-decoration: none;
+
+.pera img{
+    width: 100%;
 }
+.button{
+    text-decoration: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+    color: cornsilk;
+
+    background-image: linear-gradient(rgb(175, 112, 67),rgb(116, 59, 18));
+    font-weight: 700;
+}
+p{
+    color: rgb(18, 18, 73);
+}
+.dream{
+    background-image: url("img/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+h2{
+    font-size: 40px;
+}
+.experience{
+    background-image: url("img/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience h3{
+    color: rgb(231, 171, 59);
+}
+.experience div{
+    box-shadow: 5px 7px 40px black;
+    height: 80%;
+}
+#babydev{
+    border-left: 10px solid;
+    border-image: linear-gradient(to right, rgb(192, 0, 128), rgb(64, 25, 155) ) ;
+    border-image-slice: 1;
+}
+#prodev{
+    border-left: 10px solid;
+    border-image: linear-gradient(to right, rgb(160, 177, 8), rgb(9, 114, 155));
+    border-image-slice: 1;
+}
+.experience h1{
+    margin-left: 10px;
+}
+#endingh1{
+    margin-left: 80px;
+}
+
+
+.pera img{
+    width: 100%;
+    
+}
+
 footer{
     text-align: center;
 }
